@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const fs = require('fs');
 
 const app = express();
-const PORT = process.env.PORT || 1234;
+const PORT = process.env.PORT || 3000;
 
 // Ensure the 'public' directory exists
 if (!fs.existsSync(path.join(__dirname, 'public'))) {
